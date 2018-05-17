@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>keridon</string>
+	<key>Builder Version</key>
+	<string>13605.1.33.1.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>SHOWROOM Extension</string>
+	<key>CFBundleIdentifier</key>
+	<string>jp.co.keridon.srextension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>js/Global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>js/lib/jquery-3.3.1.slim.min.js</string>
+				<string>js/sr_monitor.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>SHOWROOM用の機能拡張</string>
+	<key>DeveloperIdentifier</key>
+	<string>GZUQ69EXK6</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>www.showroom-live.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

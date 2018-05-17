@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>glbal HTML page</title>
+<script type="text/javascript">
+
+// メッセージ受信時の処理
+safari.application.addEventListener('message', function(evt) {
+    if (evt.name === 'activate') {
+        // アクティブ化メッセージの場合は、送信元のウィンドウとタブをアクティブ化する
+        var window = evt.target.browserWindow;
+        var tab = evt.target.reader.tab;
+        window.activate();
+        tab.activate();
+    }
+}, false);
+
+</script>
+</head>
+<body>
+</body>
+</html>
